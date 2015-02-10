@@ -1,0 +1,8 @@
+﻿1. UICamera.cs
+UICamera now can process widget's event even if the widget is not rendered by this camera.
+
+2. UIButtonMessage.cs
+public static bool _allowMulti = false;
+
+3. NGUITools.cs
+static public GameObject AddChild (GameObject parent, GameObject prefab, bool isInit = true)
